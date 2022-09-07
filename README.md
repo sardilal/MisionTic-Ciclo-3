@@ -22,9 +22,10 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 El proyecto es realizado por los siguientes integrantes
 ```markdown
-| Nombre                   | Usuario de Github |
-|--------------------------|-------------------|
-| Sebastian Ardila Loaiza  |    sardilal       |
-|Karen Dayana Alfonso Muñoz|  KarenAlfonso29   |
-|                          |                   |
+| Nombre                        | Usuario de Github |
+|-------------------------------|-------------------|
+| Sebastian Ardila Loaiza       |    sardilal       |
+|Karen Dayana Alfonso Muñoz     |  KarenAlfonso29   |
+|Maria Fernanda Lopez Herrera   |  mafelh111        |
+|John Alejandro Gasca Tique     | bmsx13            |
 ```
