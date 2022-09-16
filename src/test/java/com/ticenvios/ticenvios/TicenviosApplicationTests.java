@@ -1,10 +1,10 @@
-package com.misiontic.misiontic;
+package com.ticenvios.ticenvios;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TicEnviosApplicationTests {
+class TicenviosApplicationTests {
 
 	@Test
 	void contextLoads() {
