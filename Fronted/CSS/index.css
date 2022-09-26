@@ -1,0 +1,52 @@
+:root {
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: url(/Fronted/img/fondo2.png);
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 246, 246);
+}
+.bg-dark {
+    background-color: #212529!important;
+}
+.form-search{
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.lead{
+    font-weight: 350;
+}
+.form-control {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-right: 10px;
+    border: none !important;
+    background: none !important;
+}
+
+.form-control:hover,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color:  #2756ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-primary:hover {
+    background-color: #7883ad;
+}

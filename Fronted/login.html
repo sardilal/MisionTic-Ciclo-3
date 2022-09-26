@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="img/favicon3.png">
@@ -49,23 +49,56 @@
                         <a class="nav-link" href="">Contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex ">
-                    <a href="login.html" class="btn btn-outline-light me-2" role="button">Iniciar Sesion</a>
-                    <a href="sing-up.html" class="btn btn-warning" role="button">Registrarse</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="/Fronted/img/map.png" alt="" width="100" height="100">
-        <h1 class="display-5 fw-bold text-dark">Busca la mejor ruta para ti</h1>
-        <div class="col-lg-6 mx-auto text-dark">
-            <p class="lead mb-4">Ingresa la direccion y encuentra la ruta mas rápida</p>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Busca la mejor ruta para ti</h1>
+                <p class="col-lg-10 fs-4">Si aún no tienes cuenta registrate aquí</p>
+                <a href="sing-up.html" class="btn btn-warning" role="button">Registrarse</a>
+            </div>
+            <div class="col-md-7 mx-auto col-lg-5">
+                <div class="login-box">
+                    <form>
+                        <h1 class="h3 mb-3 fw-normal">Ingresar</h1>
+                        <div class="iconos">
+                            <div class="border-icon">
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                            <div class="border-icon">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </div>
+                            <div class="border-icon">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </div>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Contraseña</label>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Recordarme
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary btn-dark" type="submit">Ingresar</button>
+                        <br>
+                        <a href="">Olvido Contraseña </a>
+                    </form>
+                </div>
+            </div>
         </div>
-        <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" class="form-control" placeholder="Direccion">
-            <button type="submit" class="btn btn-primary">Buscar</button>
-        </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

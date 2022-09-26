@@ -1,0 +1,113 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+main {
+    display: block;
+}
+.container{
+    padding-top: 24rem!important;
+    padding-bottom: 10rem!important;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Fronted/img/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(20, 19, 19);
+}
+section {
+    padding: 80px 0px;
+    overflow: hidden;
+}
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.fw-normal{
+    text-align: center!important;
+}
+.btn-warning{
+    align-content: center;
+}
+.mb-3 {
+    font:bold;
+    margin-bottom: 1.5rem!important;
+}
+.login-box{
+    background-color: rgba(137, 195, 218, 0.6);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px 20px ;
+}
+.iconos{
+    padding: 1rem 0;
+    margin: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin rgb(37, 5, 5);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+.border-icon:hover{
+    background-color: rgba(4, 10, 17, 0.171);
+    cursor: pointer;
+}
+.login-box label{
+    margin: 0;
+    padding: 10;
+    display: block;
+}
+.login-box input{
+    margin-bottom: 10px;
+}
+.login-box input[type="email"],
+.login-box input[type="password"]{
+    
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 16px;
+}
+.login-box button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 10px;
+    color: rgb(12, 11, 11);
+}
+.login-box a:hover{
+    color: rgb(44, 38, 38);
+}
+.checkbox{
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
