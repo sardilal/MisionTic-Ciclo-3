@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="img/favicon3.png">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>Rustas Logisticas</title>
-    <title>Document</title>
+    <link rel="stylesheet" href="/Fronted/CSS/ejem.css">
+    <title>Vertical Tabs</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -49,12 +49,63 @@
                         <a class="nav-link" href="">Contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex ">
-                    <a href="login.html" class="btn btn-outline-light me-2" role="button">Iniciar Sesion</a>
-                    <a href="sing-up.html" class="btn btn-warning" role="button">Registrarse</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="wrapper">
+            <ul class="indicator">
+                <li class="active" data-target="#rutas"><i class="ph-house"></i> Rutas</li>
+                <li data-target="#ruta1"><i class="ph-user-circle"></i> Ruta 1</li>
+                <li data-target="#ruta2"><i class="ph-phone"></i> Ruta 2</li>
+                <li data-target="#ruta3"><i class="ph-gear-six"></i> Ruta 3</li>
+            </ul>
+            <ul class="content">
+                <li class="active" id="Rutas">
+                    <h1>Ruta Portal Americas - Museo Nacional</h1>           
+                </li>
+                <li id="ruta1">
+                    <h1>Ruta por Av Americas</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63628.54208359758!2d-74.15649088460349!3d4.632608136545028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e3f9dd57930e267%3A0xfe5d96bf2f96984d!2zUG9ydGFsIEFtw6lyaWNhcywgQm9nb3TDoQ!3m2!1d4.6297!2d-74.17376999999999!4m5!1s0x8e3f998484277acf%3A0x3bab23efae829923!2sMuseo%20Nacional%20de%20Colombia%2C%20Avenida%20Carrera%207%2C%20Bogot%C3%A1!3m2!1d4.6154924!2d-74.068287!5e0!3m2!1ses!2sco!4v1664302168701!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </li>
+                <li id="ruta2">
+                    <h1>Ruta por Av. de las Américas y Av. Cdad. de Lima</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63628.54208359758!2d-74.15649088460349!3d4.632608136545028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e3f9dd57930e267%3A0xfe5d96bf2f96984d!2zUG9ydGFsIEFtw6lyaWNhcywgQm9nb3TDoQ!3m2!1d4.6297!2d-74.17376999999999!4m5!1s0x8e3f998484277acf%3A0x3bab23efae829923!2sMuseo%20Nacional%20de%20Colombia%2C%20Avenida%20Carrera%207%2C%20Bogot%C3%A1!3m2!1d4.6154924!2d-74.068287!5e0!3m2!1ses!2sco!4v1664302344076!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </li>
+                <li id="ruta3">
+                    <h1>Ruta por Cra. 86</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63628.54208359758!2d-74.15649088460349!3d4.632608136545028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e3f9dd57930e267%3A0xfe5d96bf2f96984d!2zUG9ydGFsIEFtw6lyaWNhcywgQm9nb3TDoQ!3m2!1d4.6297!2d-74.17376999999999!4m5!1s0x8e3f998484277acf%3A0x3bab23efae829923!2sMuseo%20Nacional%20de%20Colombia%2C%20Avenida%20Carrera%207%2C%20Bogot%C3%A1!3m2!1d4.6154924!2d-74.068287!5e0!3m2!1ses!2sco!4v1664302395007!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const allIndicator = document.querySelectorAll('.indicator li');
+        const allContent = document.querySelectorAll('.content li');
+
+        allIndicator.forEach(item => {
+            item.addEventListener('click', function () {
+                const content = document.querySelector(this.dataset.target);
+
+                allIndicator.forEach(i => {
+                    i.classList.remove('active');
+                })
+
+                allContent.forEach(i => {
+                    i.classList.remove('active');
+                })
+
+                content.classList.add('active');
+                this.classList.add('active');
+            })
+        })
+    </script>
+
 </body>
+
 </html>
