@@ -30,7 +30,7 @@ public class Package {
     private Station endstation_package;
 
     @Column(nullable = false)
-    private Date date;
+    private Date date_package;
 
 
 
