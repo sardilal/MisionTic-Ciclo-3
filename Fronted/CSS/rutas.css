@@ -65,7 +65,7 @@ li {
 	font-size: 24px;
 	display: flex;
 	align-items: center;
-	height: 64px;
+	height: 56px;
 	font-weight: 700;
 	color: var(--light);
 	position: sticky;
@@ -206,7 +206,7 @@ li {
 /* NAVBAR */
 nav {
 	background: var(--dark);
-	height: 64px;
+	height: 56px;
 	padding: 0 20px;
 	display: flex;
 	align-items: center;

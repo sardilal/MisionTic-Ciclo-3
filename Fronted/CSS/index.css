@@ -8,6 +8,16 @@
 }
 :root {
     scroll-behavior: smooth;
+	--grey: #F1F0F6;
+	--dark-grey: #8D8D8D;
+	--light: #fff;
+	--dark: #212529;
+	--green: #81D43A;
+	--light-green: #E3FFCB;
+	--blue: #1775F1;
+	--light-blue: #D0E4FF;
+	--dark-blue: #0C5FCD;
+	--red: #FC3B56;
 }
 body{
     height: 100vh;
@@ -18,15 +28,29 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container-fluid .icon {
+.icon {
 	min-width: 58px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-right: 6px;
 }
+.brand {
+    text-decoration: none;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	color: var(--light);
+	position: sticky;
+	top: 0;
+	left: 0;
+	background: var(--dark);
+	transition: all .3s ease;
+	padding: 0 5px;
+}
 .bg-dark {
-    background-color: #212529!important;
+    background-color: #212529;
 }
 .form-search{
     background: #fff;
@@ -37,17 +61,23 @@ body{
 .lead{
     font-weight: 350;
 }
-.form-control {
+.form-search .form-control {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border: none;
     margin-right: 10px;
-    border: none !important;
-    background: none !important;
+    border: none ;
+    background: none ;
 }
-
+.map {
+    min-width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
 .form-control:hover,
 .form-control:focus {
     outline: none;
@@ -64,4 +94,4 @@ body{
 .btn-primary:hover {
     background-color: #7883ad;
 }
-/*Login*/
+

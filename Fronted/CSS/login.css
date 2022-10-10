@@ -1,28 +1,58 @@
-*, ::after, ::before {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-main {
-    display: block;
+
+:root {
+    scroll-behavior: smooth;
+    --grey: #F1F0F6;
+    --dark-grey: #8D8D8D;
+    --light: #fff;
+    --dark: #212529;
+    --green: #81D43A;
+    --light-green: #E3FFCB;
+    --blue: #1775F1;
+    --light-blue: #D0E4FF;
+    --dark-blue: #0C5FCD;
+    --red: #FC3B56;
 }
-.container{
-    padding-top: 24rem!important;
-    padding-bottom: 10rem!important;
-}
-body{
-    height: 100vh;
+
+body {
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url(/Fronted/img/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(20, 19, 19);
+    padding: 5px 50px 20px 40px;
 }
-section {
-    padding: 80px 0px;
-    overflow: hidden;
+
+.brand {
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--light);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: var(--dark);
+    transition: all .3s ease;
+    padding: 0 5px;
 }
-.h1{
+
+.map {
+    min-width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.h1 {
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -31,23 +61,28 @@ section {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.fw-normal{
-    text-align: center!important;
+
+.fw-normal {
+    text-align: center;
 }
-.btn-warning{
+
+.btn-warning {
     align-content: center;
 }
+
 .mb-3 {
-    font:bold;
-    margin-bottom: 1.5rem!important;
+    font: bold;
+    margin-bottom: 1.5rem;
 }
-.login-box{
+
+.login-box {
     background-color: rgba(137, 195, 218, 0.6);
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 40px 20px ;
+    padding: 40px 20px;
 }
-.iconos{
+
+.iconos {
     padding: 1rem 0;
     margin: 0;
     width: 200px;
@@ -55,7 +90,8 @@ section {
     justify-content: space-around;
     margin: auto;
 }
-.border-icon{
+
+.border-icon {
     height: 20px;
     width: 20px;
     display: flex;
@@ -67,42 +103,50 @@ section {
     font-size: 1.5rem;
     transition: all .3s ease-in;
 }
-.border-icon:hover{
+
+.border-icon:hover {
     background-color: rgba(4, 10, 17, 0.171);
     cursor: pointer;
 }
-.login-box label{
+
+.login-box label {
     margin: 0;
     padding: 10;
     display: block;
 }
-.login-box input{
+
+.login-box input {
     margin-bottom: 10px;
 }
+
 .login-box input[type="email"],
-.login-box input[type="password"]{
-    
+.login-box input[type="password"] {
+
     border-bottom: 1px solid #fff;
     outline: none;
     font-size: 16px;
 }
-.login-box button[type="submit"]{
+
+.login-box button[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
     color: #fff;
     font-size: 18px;
 }
-.login-box a{
+
+.login-box a {
     text-decoration: none;
     font-size: 12px;
     line-height: 10px;
     color: rgb(12, 11, 11);
 }
-.login-box a:hover{
+
+.login-box a:hover {
     color: rgb(44, 38, 38);
 }
-.checkbox{
+
+.checkbox {
     background-color: initial;
     cursor: default;
     appearance: auto;

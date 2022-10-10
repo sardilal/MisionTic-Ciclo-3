@@ -1,8 +1,24 @@
-*, ::after, ::before {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-main {
-  display: block;
+
+:root {
+    scroll-behavior: smooth;
+    --grey: #F1F0F6;
+    --dark-grey: #8D8D8D;
+    --light: #fff;
+    --dark: #212529;
+    --green: #81D43A;
+    --light-green: #E3FFCB;
+    --blue: #1775F1;
+    --light-blue: #D0E4FF;
+    --dark-blue: #0C5FCD;
+    --red: #FC3B56;
 }
 .container{
   padding-top: 24rem!important;
@@ -17,6 +33,28 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(20, 19, 19);
+}
+.brand {
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: var(--light);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: var(--dark);
+  transition: all .3s ease;
+  padding: 0 5px;
+}
+
+.map {
+  min-width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
 }
 section {
   padding: 80px 0px;
