@@ -25,11 +25,7 @@ html {
 }
 
 body {
-	background-image: url(/Fronted/img/fondo2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
 	background: var(--grey);
-	overflow-x: hidden;
 }
 
 a {
@@ -373,90 +369,25 @@ nav .profile .profile-link a:hover {
 /* MAIN */
 main {
 	width: 100%;
-	padding: 24px 20px 20px 20px;
-	background-image: url(/Fronted/img/fondo2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	padding: 20px 20px 20px 20px;
+}
+main .row {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.red-box {
+    top: 0;
+    left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
-main .title {
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-
-main .breadcrumbs {
-	display: flex;
-	grid-gap: 6px;
-}
-
-main .breadcrumbs li,
-main .breadcrumbs li a {
-	font-size: 14px;
-}
-
-main .breadcrumbs li a {
-	color: var(--blue);
-}
-
-main .breadcrumbs li a.active,
-main .breadcrumbs li.divider {
-	color: var(--dark);
-	pointer-events: none;
-}
-
-main .info-data {
-	margin-top: 36px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-	grid-gap: 20px;
-}
-
-main .info-data .card {
-	padding: 20px;
-	border-radius: 10px;
-	background: var(--light);
-	box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
-}
-
-main .card .head {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
-.title-rutas {
-	font-size: 24px;
-	font-weight: 600;
-}
-
-main .card .head p {
-	font-size: 14px;
-}
-
-main .card .head .icon {
-	font-size: 20px;
-	color: var(--green);
-}
-
-main .card .head .icon.down {
-	color: var(--red);
-}
-
-main .card .label {
-	font-size: 14px;
-	font-weight: 700;
-}
-
-main .data {
-	display: flex;
-	grid-gap: 20px;
-	margin-top: 20px;
-	flex-wrap: wrap;
-}
-
-iframe {
-	width: 100%;
-}
 
 /* MAIN */
 /* CONTENT */
@@ -474,93 +405,3 @@ iframe {
 	}
 }
 
-/*--------------------------------------------------------------
-# Page Title
---------------------------------------------------------------*/
-.pagetitle {
-	margin-bottom: 10px;
-}
-
-.pagetitle h1 {
-	font-size: 24px;
-	margin-bottom: 0;
-	font-weight: 600;
-	color: #012970;
-}
-
-/* Breadcrumbs */
-.breadcrumb {
-	font-size: 14px;
-	font-family: "Nunito", sans-serif;
-	color: #899bbd;
-	font-weight: 600;
-}
-
-.breadcrumb a {
-	color: #899bbd;
-	transition: 0.3s;
-}
-
-.breadcrumb a:hover {
-	color: #51678f;
-}
-
-.breadcrumb .breadcrumb-item::before {
-	color: #899bbd;
-}
-
-.breadcrumb .active {
-	color: #51678f;
-	font-weight: 600;
-}
-
-# Profie Page --------------------------------------------------------------*/ .profile .profile-card img {
-	max-width: 120px;
-}
-
-.profile .profile-card h2 {
-	font-size: 24px;
-	font-weight: 700;
-	color: #2c384e;
-	margin: 10px 0 0 0;
-}
-
-.profile .profile-card h3 {
-	font-size: 18px;
-}
-
-.profile .profile-card .social-links a {
-	font-size: 20px;
-	display: inline-block;
-	color: rgba(1, 41, 112, 0.5);
-	line-height: 0;
-	margin-right: 10px;
-	transition: 0.3s;
-}
-
-.profile .profile-card .social-links a:hover {
-	color: #012970;
-}
-
-.profile .profile-overview .row {
-	margin-bottom: 20px;
-	font-size: 15px;
-}
-
-.profile .profile-overview .card-title {
-	color: #012970;
-}
-
-.profile .profile-overview .label {
-	font-weight: 600;
-	color: rgba(1, 41, 112, 0.6);
-}
-
-.profile .profile-edit label {
-	font-weight: 600;
-	color: rgba(1, 41, 112, 0.6);
-}
-
-.profile .profile-edit img {
-	max-width: 120px;
-}

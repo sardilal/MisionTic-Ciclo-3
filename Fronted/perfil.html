@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon3.png">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Fronted/CSS/rutas.css">
+    <title>Rutas</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="index.html" class="brand"><i class='bx bx-map icon'></i> Logistica</a>
+        <ul class="side-menu">
+            <li><a href="rutas.html" class="active"><i class='bx bxs-dashboard icon'></i> Rutas</a></li>
+            <li class="divider" data-text="Detalles">Detalles</li>
+            <li>
+                <a href="rutas.html"><i class='bx bx-map-pin icon'></i> Ruta 1 <i
+                        class='bx bx-chevron-right icon-right'></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Por Av. americas</a></li>
+                    <li><a href="#">Av. Boyacá y Cl. 80</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class='bx bx-map-pin icon'></i></i> Ruta 2 <i
+                        class='bx bx-chevron-right icon-right'></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Por Av. americas</a></li>
+                    <li><a href="#">Av. Boyacá y Cl. 80</a></li>
+                    <li><a href="">por Av. de las Américas y Av. El Dorado</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- NAVBAR -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class='bx bx-menu toggle-sidebar'></i>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" placeholder="Buscar...">
+                    <i class='bx bx-search icon'></i>
+                </div>
+            </form>
+            <span class="divider"></span>
+            <div class="profile">
+                <img src="/Fronted/img/perfil.png" alt="">
+                <ul class="profile-link">
+                    <li><a href="#"><i class='bx bxs-user-circle icon'></i> Perfil</a></li>
+                    <li><a href="#"><i class='bx bxs-cog'></i> Configuración</a></li>
+                    <li><a href="#"><i class='bx bxs-log-out-circle'></i> Salir</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+
+        <!-- MAIN -->
+        <main id="main" class="main">
+
+            <div class="pagetitle">
+                <h1>Perfil</h1>
+
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active">Perfil</li>
+                </ol>
+
+            </div><!-- End Page Title -->
+
+            <section class="section profile">
+                <div class="row">
+                    <div class="col-xl-4">
+
+                        <div class="card">
+                            <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+
+                                <img src="/Fronted/img/perfil.png" alt="Profile" class="rounded-circle">
+                                <h2>Nombre</h2>
+                                <h3>rol</h3>
+                                <div class="social-links mt-2">
+                                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-8">
+
+                        <div class="card">
+                            <div class="card-body pt-3">
+                                <!-- Bordered Tabs -->
+                                <ul class="nav nav-tabs nav-tabs-bordered">
+
+                                    <li class="nav-item">
+                                        <button class="nav-link active" data-bs-toggle="tab"
+                                            data-bs-target="#profile-overview">Perfil</button>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <button class="nav-link" data-bs-toggle="tab"
+                                            data-bs-target="#profile-edit">Editar Perfil</button>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <button class="nav-link" data-bs-toggle="tab"
+                                            data-bs-target="#profile-change-password">Contraseña</button>
+                                    </li>
+
+                                </ul>
+                                <div class="tab-content pt-2">
+
+                                    <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                                        <h5 class="card-title">Datos</h5>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 label ">Nombre</div>
+                                            <div class="col-lg-9 col-md-8">Maria Lopez</div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 label">Ciudad</div>
+                                            <div class="col-lg-9 col-md-8">Bogotá</div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 label">Direccion</div>
+                                            <div class="col-lg-9 col-md-8">Carrera 80</div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 label">Telefono</div>
+                                            <div class="col-lg-9 col-md-8">486-3538</div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 label">Correo</div>
+                                            <div class="col-lg-9 col-md-8">Mlopez@example.com</div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="tab-pane fade profile-edit pt-3" id="profile-edit">
+
+                                        <!-- Profile Edit Form -->
+                                        <form>
+                                            <div class="row mb-3">
+                                                <label for="profileImage"
+                                                    class="col-md-4 col-lg-3 col-form-label">Imagen de perfil</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <img src="/Fronted/img/perfil.png" alt="Profile">
+                                                    <div class="pt-2">
+                                                        <a href="#" class="btn btn-primary btn-sm"
+                                                            title="Upload new profile image"><i
+                                                                class="bi bi-upload"></i></a>
+                                                        <a href="#" class="btn btn-danger btn-sm"
+                                                            title="Remove my profile image"><i
+                                                                class="bi bi-trash"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Nombre</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="fullName" type="text" class="form-control"
+                                                        id="fullName" >
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="Country"
+                                                    class="col-md-4 col-lg-3 col-form-label">Ciudad</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="country" type="text" class="form-control" id="Country"
+                                                        >
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="Address"
+                                                    class="col-md-4 col-lg-3 col-form-label">Direccion</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="address" type="text" class="form-control" id="Address"
+                                                        >
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="Phone"
+                                                    class="col-md-4 col-lg-3 col-form-label">Telefono</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="phone" type="text" class="form-control" id="Phone"
+                                                        >
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="Email"
+                                                    class="col-md-4 col-lg-3 col-form-label">Correo</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="email" type="email" class="form-control" id="Email"
+                                                        >
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                            </div>
+                                        </form><!-- End Profile Edit Form -->
+
+                                    </div>
+                                    <div class="tab-pane fade pt-3" id="profile-change-password">
+                                        <!-- Change Password Form -->
+                                        <form>
+
+                                            <div class="row mb-3">
+                                                <label for="currentPassword"
+                                                    class="col-md-4 col-lg-3 col-form-label">Contraseña actual</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="password" type="password" class="form-control"
+                                                        id="currentPassword">
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">Nueva contraseña</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="newpassword" type="password" class="form-control"
+                                                        id="newPassword">
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label for="renewPassword"
+                                                    class="col-md-4 col-lg-3 col-form-label">Confirmar contraseña</label>
+                                                <div class="col-md-8 col-lg-9">
+                                                    <input name="renewpassword" type="password" class="form-control"
+                                                        id="renewPassword">
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-primary">Cambiar Contraseña</button>
+                                            </div>
+                                        </form><!-- End Change Password Form -->
+
+                                    </div>
+
+                                </div><!-- End Bordered Tabs -->
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main><!-- End #main -->
+        <!-- MAIN -->
+    </section>
+    <!-- NAVBAR -->
+    <script>
+        // SIDEBAR DROPDOWN
+        const allDropdown = document.querySelectorAll('#sidebar .side-dropdown');
+        const sidebar = document.getElementById('sidebar');
+
+        allDropdown.forEach(item => {
+            const a = item.parentElement.querySelector('a:first-child');
+            a.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                if (!this.classList.contains('active')) {
+                    allDropdown.forEach(i => {
+                        const aLink = i.parentElement.querySelector('a:first-child');
+
+                        aLink.classList.remove('active');
+                        i.classList.remove('show');
+                    })
+                }
+
+                this.classList.toggle('active');
+                item.classList.toggle('show');
+            })
+        })
+
+
+
+
+
+        // SIDEBAR COLLAPSE
+        const toggleSidebar = document.querySelector('nav .toggle-sidebar');
+        const allSideDivider = document.querySelectorAll('#sidebar .divider');
+
+        if (sidebar.classList.contains('hide')) {
+            allSideDivider.forEach(item => {
+                item.textContent = '-'
+            })
+            allDropdown.forEach(item => {
+                const a = item.parentElement.querySelector('a:first-child');
+                a.classList.remove('active');
+                item.classList.remove('show');
+            })
+        } else {
+            allSideDivider.forEach(item => {
+                item.textContent = item.dataset.text;
+            })
+        }
+
+        toggleSidebar.addEventListener('click', function () {
+            sidebar.classList.toggle('hide');
+
+            if (sidebar.classList.contains('hide')) {
+                allSideDivider.forEach(item => {
+                    item.textContent = '-'
+                })
+
+                allDropdown.forEach(item => {
+                    const a = item.parentElement.querySelector('a:first-child');
+                    a.classList.remove('active');
+                    item.classList.remove('show');
+                })
+            } else {
+                allSideDivider.forEach(item => {
+                    item.textContent = item.dataset.text;
+                })
+            }
+        })
+
+
+
+
+        sidebar.addEventListener('mouseleave', function () {
+            if (this.classList.contains('hide')) {
+                allDropdown.forEach(item => {
+                    const a = item.parentElement.querySelector('a:first-child');
+                    a.classList.remove('active');
+                    item.classList.remove('show');
+                })
+                allSideDivider.forEach(item => {
+                    item.textContent = '-'
+                })
+            }
+        })
+
+
+
+        sidebar.addEventListener('mouseenter', function () {
+            if (this.classList.contains('hide')) {
+                allDropdown.forEach(item => {
+                    const a = item.parentElement.querySelector('a:first-child');
+                    a.classList.remove('active');
+                    item.classList.remove('show');
+                })
+                allSideDivider.forEach(item => {
+                    item.textContent = item.dataset.text;
+                })
+            }
+        })
+
+
+
+
+        // PROFILE DROPDOWN
+        const profile = document.querySelector('nav .profile');
+        const imgProfile = profile.querySelector('img');
+        const dropdownProfile = profile.querySelector('.profile-link');
+
+        imgProfile.addEventListener('click', function () {
+            dropdownProfile.classList.toggle('show');
+        })
+
+
+
+
+        // MENU
+        const allMenu = document.querySelectorAll('main .content-data .head .menu');
+
+        allMenu.forEach(item => {
+            const icon = item.querySelector('.icon');
+            const menuLink = item.querySelector('.menu-link');
+
+            icon.addEventListener('click', function () {
+                menuLink.classList.toggle('show');
+            })
+        })
+
+
+
+        window.addEventListener('click', function (e) {
+            if (e.target !== imgProfile) {
+                if (e.target !== dropdownProfile) {
+                    if (dropdownProfile.classList.contains('show')) {
+                        dropdownProfile.classList.remove('show');
+                    }
+                }
+            }
+
+            allMenu.forEach(item => {
+                const icon = item.querySelector('.icon');
+                const menuLink = item.querySelector('.menu-link');
+
+                if (e.target !== icon) {
+                    if (e.target !== menuLink) {
+                        if (menuLink.classList.contains('show')) {
+                            menuLink.classList.remove('show')
+                        }
+                    }
+                }
+            })
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
